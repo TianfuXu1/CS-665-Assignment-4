@@ -3,8 +3,8 @@
 |--------------|----------------------------|
 | Name         | TianFu Xu                  |
 | Date         | 11/01/2023                 |
-| Course       | Fall / Spring / Summer     |
-| Assignment # |                            |
+| Course       | Fall                       |
+| Assignment # | 4                          |
 
 # Assignment Overview
 The objective of this assignment is to showcase the practical implementation of the adapter design pattern in Java. The provided code presents a scenario where a legacy system, represented by the LegacySystem class, needs to be integrated with a modern HTTPS-based system. To achieve this, two interfaces, CustomerData_HTTPS and CustomerData_USB, are defined, specifying methods for printing and retrieving customer data. The LegacySystem class implements the CustomerData_USB interface to provide concrete implementations. To facilitate seamless integration, an adapter class named LegacySystemAdapter is introduced. This adapter class implements the CustomerData_HTTPS interface and encapsulates an instance of the CustomerData_USB interface, enabling it to delegate calls to the legacy system. The Main class serves as the program's entry point, creating instances of the legacy system and its adapter, and invoking methods to demonstrate successful adaptation and interaction between the two systems. Overall, this assignment offers a hands-on opportunity to apply the adapter pattern, ensuring compatibility and interoperability between a legacy system and a modern HTTPS-based system.
